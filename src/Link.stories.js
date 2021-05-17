@@ -17,6 +17,7 @@ const onLinkClick = action('onLinkClick');
 export default {
   title: 'Design System/Link',
   component: Link,
+  argTypes: { onClick: { action: 'clicked' } },
 };
 
 export const All = (args) => (
